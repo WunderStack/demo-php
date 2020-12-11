@@ -42,14 +42,14 @@ $isWunderPreview = getenv('IS_WUNDERPREVIEW');
             </div>
           </header>
           <section
-            className="bg-primary py-10 px-12 text-white"
+            class="bg-primary py-10 px-12 text-white"
           >
             <strong>SSR response:</strong> We're currently
             <?php
             if ($isWunderPreview) {
-              echo 'in WunderPreview. Env var <code className="border border-accent rounded-md p-2">IS_WUNDERPREVIEW</code> equals <code className="border border-accent rounded-md p-2">' . $isWunderPreview . '</code>';
+              echo 'in WunderPreview. Env var <code class="border border-accent rounded-md p-2">IS_WUNDERPREVIEW</code> equals <code class="border border-accent rounded-md p-2">' . $isWunderPreview . '</code>';
             } else {
-              echo 'not in WunderPreview. Env var <code className="border border-accent rounded-md p-2">IS_WUNDERPREVIEW</code> is not set.';
+              echo 'not in WunderPreview. Env var <code class="border border-accent rounded-md p-2">IS_WUNDERPREVIEW</code> is not set.';
             }
             ?>
           </section>
