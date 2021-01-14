@@ -1,5 +1,7 @@
 # PHP [WunderPreview](https://wunderpreview.com) example
 
+Simple PHP 7.4 project.
+
 ## How to use this example with WunderPreview
 
 - Fork this repository
